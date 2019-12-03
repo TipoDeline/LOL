@@ -8,7 +8,7 @@ $data = $_POST;
 		if($user){
 			if(password_verify($data['password'], $user->password)) {
 				$_SESSION['logged_user'] = $user;
-				header('Location: Kabinet.html');
+				header('Location: Kabinet.php');
 				echo "Вы успешно вошли!";
 
 			} else{
