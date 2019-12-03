@@ -53,7 +53,7 @@ require('DB.php');
 
 	<div class="forma">
 	 	<div class="container">
-	 		 <form action="KabinetScript.php" method="post">
+	 		 <form action="ScriptKabinet.php" method="post">
 	 			<label>Введите ваше имя: <input type="text" name="name" ></label><br>
 	 			<label>Введите вашу фамилию: <input type="text" name="last" ></label><br>
 	 			<label>Введите вашу почту: <input type="text" name="email" ></label><br>
