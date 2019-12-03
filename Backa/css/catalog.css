@@ -1,0 +1,10 @@
+.catalog {
+    padding: 4em 0 2em 0;
+}
+
+.catalog h1 {
+    font-size:28px;
+    color:#F97300;
+    padding:1px 1px;
+    margin: 2em;
+}
